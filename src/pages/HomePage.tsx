@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import SiteFooter from "../components/SiteFooter";
 import motelImg from "../assets/276507083.jpg";
 import motelImg1 from "../assets/293834745.jpg";
 
@@ -6,10 +7,11 @@ export default function HomePage() {
   return (
     <main className="editorial-page">
       <nav className="topbar" aria-label="Primary">
-        <div className="brand">The Coastal Editorial</div>
+        <div className="brand">Limassol Motel</div>
         <div className="topbar-links">
           <a href="#rooms">Homepage</a>
           <Link to="/about">About Us</Link>
+          <Link to="/reviews">Reviews</Link>
         </div>
         <a
           className="book-button"
@@ -43,6 +45,9 @@ export default function HomePage() {
             <Link className="secondary-link" to="/about">
               Learn about us
             </Link>
+            <Link className="secondary-link" to="/reviews">
+              Read reviews
+            </Link>
           </div>
           <dl className="hero-facts" id="features">
             <div>
@@ -75,6 +80,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      <SiteFooter />
     </main>
   );
 }

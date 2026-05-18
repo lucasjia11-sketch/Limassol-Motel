@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import SiteFooter from "../components/SiteFooter";
 import beachImg from "../assets/220737396.jpg";
 import porchImg from "../assets/204789140.jpg";
 
@@ -6,12 +7,13 @@ export default function AboutUsPage() {
   return (
     <main className="about-page">
       <nav className="about-nav" aria-label="Primary">
-        <span className="about-brand">The Coastal Editorial</span>
+        <span className="about-brand">Limassol Motel</span>
         <div className="about-nav-links">
           <Link to="/">Homepage</Link>
           <Link className="is-active" to="/about">
             About Us
           </Link>
+          <Link to="/reviews">Reviews</Link>
         </div>
         <a
           className="about-book-button"
@@ -63,6 +65,7 @@ export default function AboutUsPage() {
           </div>
         </div>
       </section>
+      <SiteFooter />
     </main>
   );
 }
