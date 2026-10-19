@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 
 export default function SiteFooter() {
   return (
@@ -9,12 +9,6 @@ export default function SiteFooter() {
           An intentional destination for travellers who seek quiet coastal ease,
           warm service, and a shoreline stay that feels personal.
         </p>
-      </div>
-      <div>
-        <h3>Explore</h3>
-        <Link to="/">Rooms</Link>
-        
-        <Link to="/reviews">Guest Reviews</Link>
       </div>
       <div>
         <h3>Connect</h3>
@@ -33,4 +27,5 @@ export default function SiteFooter() {
     </footer>
   );
 }
+
 
