@@ -13,7 +13,7 @@ export default function SiteFooter() {
       <div>
         <h3>Explore</h3>
         <Link to="/">Rooms</Link>
-        <Link to="/about">Our Story</Link>
+        
         <Link to="/reviews">Guest Reviews</Link>
       </div>
       <div>
@@ -33,3 +33,4 @@ export default function SiteFooter() {
     </footer>
   );
 }
+
