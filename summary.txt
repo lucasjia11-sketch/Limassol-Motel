@@ -1,0 +1,8 @@
+simple website, showcasing the features of a motel
+button to redirect to a booking website for the motel
+photos of the motel
+header providing two gateways to a contact us and an about us, 
+contact us providing details on the contacts and phone numbers of the motel, and 
+the about us providing detailed about where the motel is located.
+a beach theme should be used
+the ui should be neat and clear for anybody to use
