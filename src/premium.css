@@ -102,3 +102,9 @@ body { background:#fff; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",
 @media(prefers-reduced-motion:reduce) { .premium-links a::after { transition:none; } }
 .site-footer { grid-template-columns:2fr 1fr; }
 @media(max-width:920px) { .site-footer { grid-template-columns:1fr; } }
+.hero-address { margin:24px auto 0; font-style:normal; font-size:14px; line-height:1.6; color:#254c3c; }
+.hero-address a { display:inline-flex; align-items:center; justify-content:center; gap:10px; max-width:100%; padding:8px 0; }
+.hero-address svg { flex-shrink:0; }
+.hero-address a:hover span:first-of-type { text-decoration:underline; text-underline-offset:4px; }
+.location-address { font-style:normal; font-size:17px; line-height:1.65; color:#254c3c; margin:24px 0 18px; }
+@media(max-width:580px) { .hero-address { max-width:290px; font-size:13px; } }
