@@ -16,6 +16,9 @@ export default function SiteFooter() {
         <a href="mailto:Admin@limassolmotel.com.au">
           Admin@limassolmotel.com.au
         </a>
+        <a>
+          109 Frank Street, Labrador, QLD 4215, Australia
+        </a>
         <a
           href="https://www.booking.com/hotel/au/limassol-motel.html"
           target="_blank"
