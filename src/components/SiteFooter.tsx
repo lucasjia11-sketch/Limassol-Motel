@@ -11,7 +11,7 @@ export default function SiteFooter() {
         </p>
       </div>
       <div>
-        <h3>Connect</h3>
+        <h3>Contact</h3>
         <a href="tel:+61755916766">+61 7 5591 6766</a>
         <a href="mailto:Admin@limassolmotel.com.au">
           Admin@limassolmotel.com.au
